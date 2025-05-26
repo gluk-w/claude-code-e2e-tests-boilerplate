@@ -48,5 +48,5 @@ Each test starts with a fresh browser context and authenticated session to preve
 - Run the test in Chrome afterward to make sure it passes, use headless mode
 - Tests must always throw an exception in case of CAPTCHA because they can only work from the internal network or through VPN
 - Fix the test until it passes, but ensure it still follows the steps in the docstring. Clarify if something is missing.
+- Store test files in @tests. File name must end with .spec.ts
 - Mobile-only tests must go into @tests/mobile and have a resolution of 430 × 932 pixels
-
